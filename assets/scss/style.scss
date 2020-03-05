@@ -60,10 +60,8 @@ header {
     .left-content {
       .header-grid-12__logo {
         a {
-          background-image: url(/images/ffw-logo-light.svg);
+          background-image: url(../../images/ffw-logo.svg);
           background-repeat: no-repeat;
-          height: 28px;
-          width: 150px;
         }
       }
     }
@@ -137,7 +135,7 @@ header {
     }
 
     &__img {
-      background-image: url(/images/sample/image1.png);
+      background-image: url(../../images/sample/image1.png);
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -160,14 +158,14 @@ header {
     margin-bottom: 58px;
     .news-grid-4 {
       #news2 {
-        background-image: url(/images/sample/image3.png);
+        background-image: url(../../images/sample/image3.png);
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover;
       }
 
       #news3 {
-        background-image: url(/images/sample/image3.png);
+        background-image: url(../../images/sample/image3.png);
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover;
@@ -175,7 +173,7 @@ header {
 
       &__title {
         position: relative;
-        background-image: url(/images/sample/image2.png);
+        background-image: url(../../images/sample/image2.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -288,19 +286,19 @@ header {
       height: 386px;
 
       #prj1 {
-        background-image: url(/images/sample/image5.png);
+        background-image: url(../../images/sample/image5.png);
       }
 
       #prj2 {
-        background-image: url(/images/sample/image6.png);
+        background-image: url(../../images/sample/image6.png);
       }
 
       #prj3 {
-        background-image: url(/images/sample/image7.png);
+        background-image: url(../../images/sample/image7.png);
       }
 
       #prj4 {
-        background-image: url(/images/sample/image8.png);
+        background-image: url(../../images/sample/image8.png);
       }
 
       .project-grid-3__img {
@@ -402,7 +400,7 @@ header {
 }
 
 .contact {
-  background-image: url(/images/sample/image9.png);
+  background-image: url(../../images/sample/image9.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -414,7 +412,7 @@ header {
     margin: 0 44px;
     .contact-left {
       &__img {
-        background-image: url(/images/icons/mail.svg);
+        background-image: url(../../images/icons/calendar.svg);
       }
       &__title {
         h3 {

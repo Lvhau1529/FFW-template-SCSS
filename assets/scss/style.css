@@ -32,34 +32,32 @@ header .header-grid-12 {
 }
 /* line 62, style.scss */
 header .header-grid-12 .left-content .header-grid-12__logo a {
-  background-image: url(/images/ffw-logo-light.svg);
+  background-image: url(../../images/ffw-logo.svg);
   background-repeat: no-repeat;
-  height: 28px;
-  width: 150px;
 }
-/* line 72, style.scss */
+/* line 70, style.scss */
 header .header-grid-12 .right-content .header-grid-12__nav {
   color: #ffffff;
   height: 100%;
 }
-/* line 76, style.scss */
+/* line 74, style.scss */
 header .header-grid-12 .right-content .header-grid-12__nav ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
 }
-/* line 81, style.scss */
+/* line 79, style.scss */
 header .header-grid-12 .right-content .header-grid-12__nav ul a {
   color: #ffffff;
   font-size: 18px;
   font-weight: 700;
 }
-/* line 86, style.scss */
+/* line 84, style.scss */
 header .header-grid-12 .right-content .header-grid-12__nav ul a::before {
   content: "/";
   padding-right: 24px;
 }
-/* line 91, style.scss */
+/* line 89, style.scss */
 header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   color: #f1f1f1;
   text-decoration: none;
@@ -67,39 +65,39 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
 }
 
 /*End Header*/
-/* line 105, style.scss */
+/* line 103, style.scss */
 .hero-banner {
   background-color: #171717;
   width: 100%;
 }
-/* line 109, style.scss */
+/* line 107, style.scss */
 .hero-banner-block {
   position: relative;
   color: #ffffff;
   height: 500px;
 }
-/* line 114, style.scss */
+/* line 112, style.scss */
 .hero-banner-block__title {
   padding: 40px;
   display: block;
 }
-/* line 118, style.scss */
+/* line 116, style.scss */
 .hero-banner-block__title span {
   font-size: 24px;
 }
-/* line 122, style.scss */
+/* line 120, style.scss */
 .hero-banner-block__title h2 {
   line-height: 1.3;
   margin-bottom: 32px;
 }
-/* line 127, style.scss */
+/* line 125, style.scss */
 .hero-banner-block__title p {
   width: 540.5px;
   letter-spacing: 1px;
   margin: 0 0 0.71875em;
   margin-bottom: 46px;
 }
-/* line 135, style.scss */
+/* line 133, style.scss */
 .hero-banner-block__button--light a {
   font-size: 18px;
   font-weight: 400;
@@ -122,9 +120,9 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   color: #171717;
   text-decoration: none;
 }
-/* line 139, style.scss */
+/* line 137, style.scss */
 .hero-banner-block__img {
-  background-image: url(/images/sample/image1.png);
+  background-image: url(../../images/sample/image1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -132,34 +130,34 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   height: 500px;
 }
 
-/* line 153, style.scss */
+/* line 151, style.scss */
 .news-title {
   letter-spacing: 1px;
   line-height: 1.45;
   margin-bottom: 42px;
 }
-/* line 159, style.scss */
+/* line 157, style.scss */
 .news-block-above {
   margin-bottom: 58px;
 }
-/* line 162, style.scss */
+/* line 160, style.scss */
 .news-block-above .news-grid-4 #news2 {
-  background-image: url(/images/sample/image3.png);
+  background-image: url(../../images/sample/image3.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
 }
-/* line 169, style.scss */
+/* line 167, style.scss */
 .news-block-above .news-grid-4 #news3 {
-  background-image: url(/images/sample/image3.png);
+  background-image: url(../../images/sample/image3.png);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
 }
-/* line 176, style.scss */
+/* line 174, style.scss */
 .news-block-above .news-grid-4__title {
   position: relative;
-  background-image: url(/images/sample/image2.png);
+  background-image: url(../../images/sample/image2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -167,7 +165,7 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   color: #ffffff;
   margin-bottom: 58px;
 }
-/* line 186, style.scss */
+/* line 184, style.scss */
 .news-block-above .news-grid-4__title::before {
   position: absolute;
   top: 0;
@@ -177,7 +175,7 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   background-color: rgba(23, 23, 23, 0.35);
   content: "";
 }
-/* line 196, style.scss */
+/* line 194, style.scss */
 .news-block-above .news-grid-4__title h3 {
   position: absolute;
   padding: 78px 65px 18px 30px;
@@ -187,7 +185,7 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   margin-bottom: 0;
   z-index: 1;
 }
-/* line 206, style.scss */
+/* line 204, style.scss */
 .news-block-above .news-grid-4__title #news1 {
   padding: 119px 65px 18px 30px;
   right: 0;
@@ -195,89 +193,89 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   left: 0;
   margin-bottom: 0;
 }
-/* line 215, style.scss */
+/* line 213, style.scss */
 .news-block-above .news-grid-4__text {
   height: 158px;
 }
-/* line 218, style.scss */
+/* line 216, style.scss */
 .news-block-above .news-grid-4__text p {
   letter-spacing: 1px;
   line-height: 23px;
   margin-top: 32px;
 }
-/* line 226, style.scss */
+/* line 224, style.scss */
 .news-block-above .news-grid-4__link a {
   font-size: 18px;
   text-decoration: none;
   color: #171717;
 }
-/* line 231, style.scss */
+/* line 229, style.scss */
 .news-block-above .news-grid-4__link a:hover {
   color: #1565c0;
 }
-/* line 239, style.scss */
+/* line 237, style.scss */
 .news-block-below {
   margin-bottom: 58px;
 }
-/* line 243, style.scss */
+/* line 241, style.scss */
 .news-block-below .news-grid-4__text {
   height: 199px;
 }
-/* line 246, style.scss */
+/* line 244, style.scss */
 .news-block-below .news-grid-4__text p {
   letter-spacing: 1px;
   line-height: 23px;
   margin-top: 14px;
 }
-/* line 253, style.scss */
+/* line 251, style.scss */
 .news-block-below .news-grid-4 #text3 {
   height: 157px;
 }
-/* line 258, style.scss */
+/* line 256, style.scss */
 .news-block-below .news-grid-4__link a {
   font-size: 18px;
   text-decoration: none;
   color: #171717;
 }
-/* line 263, style.scss */
+/* line 261, style.scss */
 .news-block-below .news-grid-4__link a:hover {
   color: #1565c0;
 }
 
 /*End-News*/
-/* line 274, style.scss */
+/* line 272, style.scss */
 .project {
   background-color: #000000;
   color: #ffffff;
 }
-/* line 278, style.scss */
+/* line 276, style.scss */
 .project-block {
   padding: 100px 0 80px;
   line-height: 23px;
   height: 697px;
 }
-/* line 286, style.scss */
+/* line 284, style.scss */
 .project-block .project-grid-12 {
   margin-top: 42px;
   height: 386px;
 }
-/* line 290, style.scss */
+/* line 288, style.scss */
 .project-block .project-grid-12 #prj1 {
-  background-image: url(/images/sample/image5.png);
+  background-image: url(../../images/sample/image5.png);
 }
-/* line 294, style.scss */
+/* line 292, style.scss */
 .project-block .project-grid-12 #prj2 {
-  background-image: url(/images/sample/image6.png);
+  background-image: url(../../images/sample/image6.png);
 }
-/* line 298, style.scss */
+/* line 296, style.scss */
 .project-block .project-grid-12 #prj3 {
-  background-image: url(/images/sample/image7.png);
+  background-image: url(../../images/sample/image7.png);
 }
-/* line 302, style.scss */
+/* line 300, style.scss */
 .project-block .project-grid-12 #prj4 {
-  background-image: url(/images/sample/image8.png);
+  background-image: url(../../images/sample/image8.png);
 }
-/* line 306, style.scss */
+/* line 304, style.scss */
 .project-block .project-grid-12 .project-grid-3__img {
   position: relative;
   height: 386px;
@@ -285,7 +283,7 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   background-repeat: no-repeat;
   background-position: center top;
 }
-/* line 313, style.scss */
+/* line 311, style.scss */
 .project-block .project-grid-12 .project-grid-3__img::before {
   content: "";
   background: linear-gradient(-180deg, transparent 0%, #171717 100%);
@@ -295,11 +293,11 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   bottom: 0;
   left: 0;
 }
-/* line 328, style.scss */
+/* line 326, style.scss */
 .project-block .project-grid-12 .project-grid-3__img .project-grid-3__title #prjt {
   margin-top: 296px;
 }
-/* line 332, style.scss */
+/* line 330, style.scss */
 .project-block .project-grid-12 .project-grid-3__img .project-grid-3__title h3 {
   position: absolute;
   z-index: 1;
@@ -308,30 +306,30 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
 }
 
 /*End-project*/
-/* line 346, style.scss */
+/* line 344, style.scss */
 .cta {
   margin-top: 100px;
 }
-/* line 348, style.scss */
+/* line 346, style.scss */
 .cta .cta-block {
   margin: 0 42px;
 }
-/* line 353, style.scss */
+/* line 351, style.scss */
 .cta .cta-block .cta-grid-12 {
   margin-top: 42px;
 }
-/* line 356, style.scss */
+/* line 354, style.scss */
 .cta .cta-block .cta-grid-12 .cta-grid-4 .cta-grid-block {
   background-color: rgba(23, 23, 23, 0.05);
   padding: 49px 33px 51px;
   height: 456px;
 }
-/* line 364, style.scss */
+/* line 362, style.scss */
 .cta .cta-block .cta-grid-12 .cta-grid-4 .cta-grid-block .cta-grid-4__button--dark {
   box-sizing: inherit;
   margin-top: 68px;
 }
-/* line 367, style.scss */
+/* line 365, style.scss */
 .cta .cta-block .cta-grid-12 .cta-grid-4 .cta-grid-block .cta-grid-4__button--dark a {
   font-size: 18px;
   font-weight: 400;
@@ -355,17 +353,17 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   text-decoration: none;
 }
 
-/* line 378, style.scss */
+/* line 376, style.scss */
 .quote-grid-12 {
   margin-top: 157px;
   margin-left: 57px;
   border-left: 10px solid rgba(23, 23, 23, 0.05);
 }
-/* line 382, style.scss */
+/* line 380, style.scss */
 .quote-grid-12__text {
   padding-left: 20px;
 }
-/* line 384, style.scss */
+/* line 382, style.scss */
 .quote-grid-12__text p {
   width: 1221px;
   font-size: 32px;
@@ -374,20 +372,20 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   margin: 0px 0px 23px;
   font-style: italic;
 }
-/* line 393, style.scss */
+/* line 391, style.scss */
 .quote-grid-12__author {
   padding-left: 20px;
 }
-/* line 395, style.scss */
+/* line 393, style.scss */
 .quote-grid-12__author p {
   font-size: 30px;
   line-height: 30px;
   letter-spacing: 1px;
 }
 
-/* line 404, style.scss */
+/* line 402, style.scss */
 .contact {
-  background-image: url(/images/sample/image9.png);
+  background-image: url(../../images/sample/image9.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -395,25 +393,25 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   padding: 100px 0 0 38px;
   margin-top: 148px;
 }
-/* line 413, style.scss */
+/* line 411, style.scss */
 .contact .contact-grid-12 {
   margin: 0 44px;
 }
-/* line 416, style.scss */
+/* line 414, style.scss */
 .contact .contact-grid-12 .contact-left__img {
-  background-image: url(/images/icons/mail.svg);
+  background-image: url(../../images/icons/calendar.svg);
 }
-/* line 420, style.scss */
+/* line 418, style.scss */
 .contact .contact-grid-12 .contact-left__title h3 {
   color: #ffffff;
   line-height: 40px;
 }
-/* line 426, style.scss */
+/* line 424, style.scss */
 .contact .contact-grid-12 .contact-left__text p {
   color: #ffffff;
   letter-spacing: 1px;
 }
-/* line 434, style.scss */
+/* line 432, style.scss */
 .contact .contact-grid-12 .contact-right .input input {
   width: 358px;
   height: 72px;
@@ -424,15 +422,15 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   margin-bottom: 45px;
   background-color: #1a1a1a;
 }
-/* line 444, style.scss */
+/* line 442, style.scss */
 .contact .contact-grid-12 .contact-right .input input::placeholder {
   color: #ffffff;
 }
-/* line 447, style.scss */
+/* line 445, style.scss */
 .contact .contact-grid-12 .contact-right .input input:nth-of-type(2) {
   margin-left: 65px;
 }
-/* line 453, style.scss */
+/* line 451, style.scss */
 .contact .contact-grid-12 .contact-right textarea {
   width: 826px;
   height: 171px;
@@ -442,11 +440,11 @@ header .header-grid-12 .right-content .header-grid-12__nav ul a:hover {
   padding: 28px 28px 24px;
   background-color: #1a1a1a;
 }
-/* line 461, style.scss */
+/* line 459, style.scss */
 .contact .contact-grid-12 .contact-right textarea::placeholder {
   color: #ffffff;
 }
-/* line 466, style.scss */
+/* line 464, style.scss */
 .contact .contact-grid-12 .contact-right__button a {
   font-size: 18px;
   font-weight: 400;
@@ -10390,3 +10388,5 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
