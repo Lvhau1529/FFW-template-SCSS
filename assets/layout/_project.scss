@@ -1,0 +1,71 @@
+.project {
+    background-color: $dark-hover;
+    color: $light-color;
+  
+    &-block {
+      padding: 100px 0 80px;
+      line-height: 23px;
+      height: 697px;
+  
+      &-title {
+      }
+  
+      .project-grid-12 {
+        margin-top: 42px;
+        height: 386px;
+  
+        #prj1 {
+          background-image: url(../../images/sample/image5.png);
+        }
+  
+        #prj2 {
+          background-image: url(../../images/sample/image6.png);
+        }
+  
+        #prj3 {
+          background-image: url(../../images/sample/image7.png);
+        }
+  
+        #prj4 {
+          background-image: url(../../images/sample/image8.png);
+        }
+  
+        .project-grid-3__img {
+          position: relative;
+          height: 386px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center top;
+  
+          &::before {
+            content: "";
+            background: linear-gradient(
+              -180deg,
+              transparent 0%,
+              rgb(23, 23, 23) 100%
+            );
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+          }
+  
+          .project-grid-3__title {
+            #prjt {
+              margin-top: 296px;
+            }
+  
+            h3 {
+              position: absolute;
+              z-index: 1;
+              padding: 22px 65px 27px 30px;
+              margin-top: 255px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  /*End-project*/

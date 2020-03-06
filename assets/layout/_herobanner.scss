@@ -1,0 +1,46 @@
+.hero-banner {
+    background-color: $dark-color;
+    width: 100%;
+  
+    &-block {
+      position: relative;
+      color: $light-color;
+      height: 500px;
+  
+      &__title {
+        padding: 40px;
+        display: block;
+  
+        span {
+          font-size: 24px;
+        }
+  
+        h2 {
+          line-height: 1.3;
+          margin-bottom: 32px;
+        }
+  
+        p {
+          width: 540.5px;
+          letter-spacing: 1px;
+          margin: 0 0 0.71875em;
+          margin-bottom: 46px;
+        }
+      }
+  
+      &__button--light a {
+        @include button($dark-color, $light-color, $light-button);
+      }
+  
+      &__img {
+        background-image: url(../../images/sample/image1.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 674px;
+        height: 500px;
+      }
+    }
+  }
+  
+  // End Hero-banner

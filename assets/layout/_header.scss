@@ -1,0 +1,53 @@
+header {
+    background-color: $dark-color;
+    width: 100%;
+    height: 6.313rem;
+    border-bottom: 1px solid $light-button ;
+    .header-grid-12 {
+      margin: 0 44px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+  
+      .left-content {
+        .header-grid-12__logo {
+          a {
+            background-image: url(../../images/ffw-logo.svg);
+            background-repeat: no-repeat;
+          }
+        }
+      }
+  
+      .right-content {
+        .header-grid-12__nav {
+          color: $light-color;
+          height: 100%;
+  
+          ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+  
+            a {
+              color: $light-color;
+              font-size: 18px;
+              font-weight: 700;
+  
+              &::before {
+                content: "/";
+                padding-right: 24px;
+              }
+  
+              &:hover {
+                color: $light-button;
+                text-decoration: none;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  /*End Header*/
