@@ -1,31 +1,4 @@
-$dark-color: #171717;
-$dark-hover: #000000;
-$cta-before: #f3f3f3;
-$light-button: #f1f1f1;
-$light-color: #ffffff;
-
-@mixin button($color, $bg-color, $hover-color) {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1;
-  width: 160px;
-  height: 18px;
-  padding: 21px 65px 16px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: capitalize;
-  border-radius: 2px;
-  cursor: pointer;
-  background-color: $bg-color;
-  text-decoration: none;
-  color: $color;
-
-  &:hover {
-    background-color: $hover-color;
-    color: $color;
-    text-decoration: none;
-  }
-}
+@import "../base/base.scss";
 
 html {
   font-family: "MarkWebPro", -apple-system, BlinkMacSystemFont, "Helvetica",
