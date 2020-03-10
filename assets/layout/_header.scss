@@ -12,8 +12,10 @@ header {
       .left-content {
         .header-grid-12__logo {
           a {
-            background-image: url(../../images/ffw-logo.svg);
-            background-repeat: no-repeat;
+            background: {
+              image: url(../../images/ffw-logo.svg);
+              repeat: no-repeat;
+            }
           }
         }
       }
@@ -30,8 +32,10 @@ header {
   
             a {
               color: $light-color;
-              font-size: 18px;
-              font-weight: 700;
+              font: {
+                size: 18px;
+                weight: 700;
+              }
   
               &::before {
                 content: "/";

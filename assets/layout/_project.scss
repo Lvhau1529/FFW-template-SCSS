@@ -33,9 +33,11 @@
         .project-grid-3__img {
           position: relative;
           height: 386px;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center top;
+          background: {
+            size: cover;
+            repeat: no-repeat;
+            position: center top;
+          }
   
           &::before {
             content: "";

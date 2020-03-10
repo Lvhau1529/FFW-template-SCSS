@@ -1,8 +1,10 @@
 .contact {
-    background-image: url(../../images/sample/image9.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background: {
+      image: url(../../images/sample/image9.png);
+      size: cover;
+      repeat: no-repeat;
+      position: center center;
+    }
     height: 556px;
     padding: 100px 0 0 38px;
     margin-top: 148px;

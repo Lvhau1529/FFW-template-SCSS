@@ -9,25 +9,31 @@
       margin-bottom: 58px;
       .news-grid-4 {
         #news2 {
-          background-image: url(../../images/sample/image3.png);
-          background-repeat: no-repeat;
-          background-position: 50% 50%;
-          background-size: cover;
+          background: {
+            image: url(../../images/sample/image3.png);
+            repeat: no-repeat;
+            position: 50% 50%;
+            size: cover;
+          }
         }
   
         #news3 {
-          background-image: url(../../images/sample/image3.png);
-          background-repeat: no-repeat;
-          background-position: 50% 50%;
-          background-size: cover;
+          background: {
+            image: url(../../images/sample/image3.png);
+            repeat: no-repeat;
+            position: 50% 50%;
+            size: cover;
+          }
         }
   
         &__title {
           position: relative;
-          background-image: url(../../images/sample/image2.png);
-          background-repeat: no-repeat;
-          background-position: center center;
-          background-size: cover;
+          background: {
+            image: url(../../images/sample/image2.png);
+            repeat: no-repeat;
+            position: center center;
+            size: cover;
+          }
           height: 200px;
           color: $light-color;
           margin-bottom: 58px;
