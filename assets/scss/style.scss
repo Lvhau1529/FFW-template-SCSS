@@ -1,4 +1,7 @@
+
 @import "../base/base.scss"; //reset browser
+@import "../layout/layout.scss"; //component site
+@import "../vendors/bootstrap/bootstrap.scss"; //bootstrap framework
 
 html {
   font-family: "MarkWebPro", -apple-system, BlinkMacSystemFont, "Helvetica",
@@ -19,5 +22,4 @@ html {
   }
 }
 
-@import "../layout/layout.scss"; //component site
-@import "../vendors/bootstrap/bootstrap.scss"; //bootstrap framework
+
