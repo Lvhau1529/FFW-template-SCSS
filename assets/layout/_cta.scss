@@ -8,6 +8,9 @@
       .cta-grid-12 {
         margin-top: 42px;
         .cta-grid-4 {
+          #midButton {
+            margin-top: 116px;
+          }
           .cta-grid-block {
             background-color: rgba(23, 23, 23, 0.05);
             padding: 49px 33px 51px;
@@ -22,6 +25,7 @@
               a {
                 @include button($light-button, $dark-color, $dark-hover);
               }
+              
             }
           }
         }

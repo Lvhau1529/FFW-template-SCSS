@@ -204,6 +204,8 @@ header {
     margin: 0 42px; }
     .cta .cta-block .cta-grid-12 {
       margin-top: 42px; }
+      .cta .cta-block .cta-grid-12 .cta-grid-4 #midButton {
+        margin-top: 116px; }
       .cta .cta-block .cta-grid-12 .cta-grid-4 .cta-grid-block {
         background-color: rgba(23, 23, 23, 0.05);
         padding: 49px 33px 51px;
